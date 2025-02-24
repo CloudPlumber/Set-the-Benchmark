@@ -34,7 +34,7 @@ jobs: # Jobs run in parallel by default
         echo "DEPLOYMENT_NAME=$DEPLOYMENT_NAME" >> $GITHUB_ENV
         echo "DEPLOYMENT_NAME=$DEPLOYMENT_NAME" >> $GITHUB_OUTPUT
     
-    - name: Checkout code
+    - name: Checkout code 
       uses: actions/checkout@v4 # Public Action - see https://github.com/marketplace/actions/checkout
 
     - name: Log into Azure
